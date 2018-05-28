@@ -1,0 +1,48 @@
+-
+  x: 800
+  y: 500
+  name: B
+  children:
+    -
+      name: b1-1
+      children:
+        -
+          name: b2-1
+          children:
+            -
+              name: b2-1-1
+              children:
+                -
+                  name: b2-1-1-1
+                -
+                  name: b2-1-1-2
+                -
+                  name: b2-1-1-3
+            -
+              name: hoge
+            -
+              name: hoge
+            -
+              name: hoge
+            -
+              name: hoge
+    - name: b2
+    - name: b3
+    - name: b4
+      children:
+        - name: b4-1
+        - name: b4-2
+    - name: b5
+    - name: b6
+      children:
+        - name: b6-1
+        - name: b6-2
+        - name: b6-3
+        - name: b6-4
+- name: AAA
+  x: 300
+  y: 500
+  children:
+    - name: AAA-1
+    - name: AAA-2
+    - name: AAA-3
